@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./Scripts/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="./img/iconEstrela.png">
+    <title>Pegue Estrelas</title>
+   
+</head>
+
+<body>
+        <img src="./img/PegueEstrelas_title.png" alt="titulo" width="400px" height="300px">
+        <audio id="som-estrela" src="./img/sound-effect-twinklesparkle-115095.mp3"></audio>
+    <div>
+        <div class="container-jogo">
+            <div>
+                <img class="imagem" src="./img/Estrelinha.png" alt="estrela">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div>
+        <div class="pontos">
+            <div>
+                <table>
+                    <tr>
+                        <td> Pontos: </td>
+                        <td id="pontuacao"> 0 </td>
+                        <td>Dificuldade</td>
+                    </tr>
+                    <tr>
+                        <td> Tempo: </td>
+                        <td id="tempo-contagem"> 30 </td>
+                        <td> 
+                            <form action="#">         
+                                <select id="dificuldade" name="dificuldade">
+                                    <option value="facil" id="facil">Fácil</option>
+                                    <option value="medio" id="medio">Médio</option>
+                                    <option value="dificil" id="dificil">Difícil</option>
+                                </select>
+                                
+                            </form>
+                        
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
